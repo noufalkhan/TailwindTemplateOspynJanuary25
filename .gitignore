@@ -1,0 +1,65 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node dependencies
+node_modules/
+.pnp/
+.pnp.*
+
+# Yarn (PnP)
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js build output
+.next/
+out/
+
+# Production build (if using a custom build folder)
+build/
+
+# Tailwind CSS source maps
+*.css.map
+
+# Coverage reports (for testing)
+coverage/
+
+# Logs & debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env*
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# macOS system files
+.DS_Store
+
+# Vercel deployment
+.vercel/
+.vercel_build_output/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Shadcn CLI config
+.shadcn.json
+
+# Miscellaneous temporary files
+*.bak
+*.tmp
